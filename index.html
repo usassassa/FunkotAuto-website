@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funkot Auto DJ — Funkot特化の自動DJミキサー</title>
+    <meta name="description"
+        content="Funkot Auto DJは、ファンコット(Funkot)に特化した自動DJミキシングソフトウェアです。自動Mix、精密Cue編集、配信向けウォーターマーク機能を搭載。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Lemon Squeezy Overlay Widget -->
+    <script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <img src="images/app_icon.png" alt="Funkot Auto DJ" width="32" height="32">
+                <span>Funkot Auto DJ</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How it works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#pricing" class="nav-cta">購入する</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <header class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-inner">
+            <img src="images/app_icon.png" alt="Funkot Auto DJ Logo" class="hero-logo" width="100" height="100">
+            <h1>Funkot Auto DJ</h1>
+            <p class="hero-tagline">Funkot特化の自動DJミキサー &amp; キューエディター</p>
+            <p class="hero-desc">
+                お手持ちのファンコット楽曲を、本物のDJの繋ぎ方で自動ミックス。<br>
+                精密なCue Editor付属。ストリーミング・録音・配信用ウォーターマーク機能を搭載した、<br>
+                DJプレイと配信を総合的にサポートするWindows向けデスクトップツールです。
+            </p>
+            <div class="hero-cta">
+                <!-- TODO: Lemon Squeezy Live Mode URLに差し替え -->
+                <a href="#pricing" class="btn btn-accent">ライセンスを購入する</a>
+            </div>
+        </div>
+        <div class="hero-screenshot">
+            <!-- ★ ユーザー様: ここにAuto DJ本体のメインUIスクリーンショットを配置してください -->
+            <div class="placeholder">
+                <p>📸 メインUI スクリーンショット<br><small>images/screenshot_main.png を配置</small></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============ FEATURES ============ -->
+    <section id="features" class="section">
+        <div class="section-inner">
+            <h2 class="section-title">Features</h2>
+            <p class="section-subtitle">2つのアプリケーションで構成された、Funkotに特化した自動DJシステム</p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🎛️ 2 Deck 自動ミックス</h3>
+                    <p>再生中のDeckがMix Outポイントに到達すると、自動的に次のDeckへシームレスにミックス。EQ操作はリアルタイムでUI表示され、つなぎ方の確認・学習も可能です。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📡 LAN内ストリーミング</h3>
+                    <p>STREAMボタンを押すとQRコードが表示され、同一ネットワーク内のスマホやタブレットからDJミックスをリアルタイム試聴可能。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📼 自動録音</h3>
+                    <p>DJミックスを高品質WAVで自動録音。再生トラックリスト (.txt) も自動で生成されるため、配信用アーカイブの作成や管理が容易です。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔒 ウォーターマーク</h3>
+                    <p>配信者向けの無断録音防止機能。ミックスの合間やインターバルごとにチャイム音を自動で挿入し、DJ配信からの無断録音・転用を抑止します。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>♊ サブプレイリスト</h3>
+                    <p>.funkyプレイリストは同時に2種扱えます。再生中にプレイリストを右クリックで別プレイリストの曲をDeckに挿入し、シームレスなセット切替が可能。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🖼️ カスタム背景 &amp; 別窓</h3>
+                    <p>プレイリストエリアの背景に任意画像やジャケットアートを表示可能。プレイリストを別窓にすれば、選曲リストを隠した状態での配信にも対応。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ MIX TECHNIQUE ============ -->
+    <section class="section section-alt">
+        <div class="section-inner">
+            <div class="mix-technique-block">
+                <div class="mix-technique-photo">
+                    <!-- ★ ここにDJ SUMMER RANDCELのアー写を配置してください -->
+                    <div class="placeholder placeholder-square">
+                        <p>📸 アー写<br><small>images/dj_summer_randcel.png を配置</small></p>
+                    </div>
+                </div>
+                <div class="mix-technique-text">
+                    <h2 class="section-title">Mixの手元は実績ある熟練DJのもの</h2>
+                    <p class="section-subtitle">DJ SUMMER RANDCELの繋ぎ方を完全再現</p>
+                    <p>Funkot Auto DJの自動ミックスは、ただの機械的なクロスフェードではありません。<br>
+                        2020年よりネット上で精力的に活動するFunkot DJの <strong>DJ SUMMER RANDCEL</strong>
+                        のEQ操作・フェーダーワークを徹底的に分析し、そのミックス手法をアルゴリズムとして完全に再現しています。</p>
+                    <p>ボタンを押すだけで、本物のDJの「手つき」でノンストップMixが実現します。</p>
+
+                    <div class="dj-profile">
+                        <h4>DJ SUMMER RANDCEL</h4>
+                        <p>2020年〜2021年、夏休みに1ヶ月間毎日1時間弱のFunkot
+                            DJmixをYouTubeに投稿する企画と共に登場。2022年からは国内外のDJを巻き込み、夏休みに1ヶ月間毎日Funkot
+                            DJmixを投稿する大型企画『<strong>FunkotChannel</strong>』を設立。Funkot
+                            DJmixをより多くの人に届けるべく活動する、誰も覚えていない女児アニメを日々鑑賞する謎のバーチャル女児DJ。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CUE EDITOR ============ -->
+    <section id="cue-editor" class="section section-alt">
+        <div class="section-inner">
+            <div class="editor-block">
+                <div class="editor-text">
+                    <h2 class="section-title">✂️ Funkot Cue Editor</h2>
+                    <p class="section-subtitle">付属の精密キューポイント編集ツール</p>
+                    <p>Auto DJは <code>.funky</code> プレイリストファイルで楽曲のキューポイントを管理しています。Cue Editorはその .funky
+                        ファイルを編集するための専用ツールで、以下の機能を備えています:</p>
+                    <ul class="check-list">
+                        <li><strong>200x ズーム</strong> — 波形を極限まで拡大し、拍単位でキューポイントを微調整</li>
+                        <li><strong>メトロノーム同期</strong> — キューポイントのグリッドがズレていないか耳で確認</li>
+                        <li><strong>2種のオフセット</strong> — Play CueとMix Outで別々のオフセット設定。downbeat楽曲にも対応</li>
+                        <li><strong>ジャスト / カウントイン</strong> — 再生プレビューは2種類。キューポイントからの「ジャスト再生」と8拍前からの「カウントイン再生」</li>
+                        <li><strong>多言語対応</strong> — 日本語 / English / Bahasa Indonesia を切替可能</li>
+                    </ul>
+                </div>
+                <div class="editor-screenshot">
+                    <!-- ★ ユーザー様: ここにCue Editorのスクリーンショットを配置してください -->
+                    <div class="placeholder">
+                        <p>📸 Cue Editor スクリーンショット<br><small>images/screenshot_cue_editor.png を配置</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section id="how-it-works" class="section">
+        <div class="section-inner">
+            <h2 class="section-title">How it works</h2>
+            <p class="section-subtitle">Cue EditorでPlay Cue/Mix Outを設定 → Auto DJが自動でノンストップMix</p>
+
+            <div class="steps">
+                <div class="step-item">
+                    <div class="step-num">1</div>
+                    <div class="step-body">
+                        <h4>Cue Editorで楽曲を準備</h4>
+                        <p><code>FunkyCueEditor.exe</code> を起動し、プレイリストに楽曲を追加。各トラックの <strong>Play Cue</strong> (イントロ開始位置)
+                            と <strong>Mix Out</strong> (次の曲への切替ポイント) を設定して <code>.funky</code> ファイルとして保存します。</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">2</div>
+                    <div class="step-body">
+                        <h4>Auto DJでプレイリストを読み込み</h4>
+                        <p><code>FunkotAutoDJ.exe</code> を起動し、「Load Playlist」で .funky ファイルを選択。チケットを消費して ▶ Play
+                            を押すだけで自動DJが始まります。</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">3</div>
+                    <div class="step-body">
+                        <h4>あとは全自動。Mix・EQ操作をリアルタイム表示</h4>
+                        <p>Mix Outに到達すると次のDeckのPlay Cueから自動で再生開始。EQ操作がリアルタイムでUIに反映されるため、ミックス手法の確認・学習にもなります。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ TICKET SYSTEM ============ -->
+    <section class="section section-alt">
+        <div class="section-inner">
+            <h2 class="section-title">🎫 サブスクを解約しても使い続けられる — チケットシステム</h2>
+            <p class="section-subtitle">サブスクリプションの契約期間が終了しても、アプリは引き続きご利用いただけます</p>
+
+            <p style="color: var(--text2); margin-bottom: 2rem;">Funkot Auto
+                DJは、サブスクリプションを継続しなくても「チケット」で毎日お使いいただけます。<br>プレミアム期間が終了しても、アプリが使えなくなることはありません。</p>
+
+            <div class="ticket-info">
+                <div class="ticket-card">
+                    <h4>毎日1枚自動付与</h4>
+                    <p>日付変更で自動回復。チケットは最大3枚までストック可能。</p>
+                </div>
+                <div class="ticket-card">
+                    <h4>初回起動時は3枚</h4>
+                    <p>アプリの初回起動時にチケットが3枚付与されます。</p>
+                </div>
+                <div class="ticket-card">
+                    <h4>プロモコードで追加</h4>
+                    <p>キャンペーンやイベントで配布されるプロモコードで追加チケットを取得可能。</p>
+                </div>
+                <div class="ticket-card highlight">
+                    <h4>サブスク継続中は無制限</h4>
+                    <p>プレミアム期間中はチケット消費なし。時間制限なく使い放題です。</p>
+                </div>
+            </div>
+
+            <div class="alert-box">
+                <span class="alert-icon">💡</span>
+                <div>
+                    <p>気に入ったらサブスクリプションを継続して無制限に。そうでなくても、毎日届くチケットでDJプレイを楽しめます。Auto-Consume機能をONにすれば、チケットのカウントダウンが0になった時に自動的に次のチケットを消費してセッションを延長することも可能です。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section id="pricing" class="section">
+        <div class="section-inner">
+            <h2 class="section-title">Pricing</h2>
+            <p class="section-subtitle">アプリ本体 + 初月プレミアム込みの価格です。用途に合わせた2つのプランをご用意。</p>
+
+            <div class="pricing-grid pricing-two-col">
+                <!-- Premium -->
+                <div class="price-card">
+                    <div class="monthly-badge"><span class="monthly-label">月額</span><span class="monthly-amount">¥500</span></div>
+                    <div class="plan-label">Premium</div>
+                    <div class="plan-price"><span class="yen">¥</span>1,500</div>
+                    <div class="plan-breakdown">アプリ本体 ¥1,000 + 初月Premium ¥500</div>
+                    <div class="plan-sub">翌月以降: ¥500/月（継続する場合）</div>
+                    <ul class="plan-list">
+                        <li class="ok">アプリ本体のダウンロード</li>
+                        <li class="ok">Cue Editor (制限なし・永久利用可)</li>
+                        <li class="ok">全機能の制限解除</li>
+                        <li class="ok">チケット消費なし・時間無制限</li>
+                        <li class="ok">LAN内ストリーミング配信</li>
+                        <li class="ok">高品質WAV録音</li>
+                        <li class="ok">トラックリスト自動生成</li>
+                        <li class="no">ウォーターマーク機能</li>
+                        <li class="no">公開・商用利用</li>
+                    </ul>
+                    <!-- TODO: Lemon Squeezy Live Mode URL [Premium +App Bundle] -->
+                    <a href="#" class="btn btn-accent lemonsqueezy-button">購入する</a>
+                    <div class="renewal-note">解約後の再開は <a href="#">Renewal プラン (¥500/月・初期費用なし)</a></div>
+                </div>
+
+                <!-- Streaming Premium -->
+                <div class="price-card featured">
+                    <div class="plan-badge">配信・商用利用</div>
+                    <div class="monthly-badge"><span class="monthly-label">月額</span><span class="monthly-amount">¥1,000</span></div>
+                    <div class="plan-label">Streaming Premium</div>
+                    <div class="plan-price"><span class="yen">¥</span>2,000</div>
+                    <div class="plan-breakdown">アプリ本体 ¥1,000 + 初月Streaming Premium ¥1,000</div>
+                    <div class="plan-sub">翌月以降: ¥1,000/月（継続する場合）</div>
+                    <ul class="plan-list">
+                        <li class="ok">アプリ本体のダウンロード</li>
+                        <li class="ok">Cue Editor (制限なし・永久利用可)</li>
+                        <li class="ok">Premiumの全機能</li>
+                        <li class="ok accent"><strong>公開配信・商用利用ライセンス</strong></li>
+                        <li class="ok accent"><strong>ウォーターマーク（無断録音防止）機能</strong></li>
+                        <li class="ok">チケット消費なし・時間無制限</li>
+                        <li class="ok">LAN内ストリーミング配信</li>
+                        <li class="ok">高品質WAV録音</li>
+                        <li class="ok">トラックリスト自動生成</li>
+                    </ul>
+                    <!-- TODO: Lemon Squeezy Live Mode URL [Streaming Premium +App Bundle] -->
+                    <a href="#" class="btn btn-accent lemonsqueezy-button">購入する</a>
+                    <div class="renewal-note">解約後の再開は <a href="#">Renewal プラン (¥1,000/月・初期費用なし)</a></div>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <p>※ 初回購入にはアプリ本体代 (¥1,000) + 初月分のサブスクリプション料金が含まれます。</p>
+                <p>※ サブスクリプションはいつでも解約可能です。解約後もチケットシステムにより毎日アプリをご利用いただけます。</p>
+                <p>※ 一度解約した後に再開する場合は、初期費用なしの「Renewal」プランをご利用ください。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <img src="images/app_icon.png" alt="Logo" width="28" height="28">
+                <span>Funkot Auto DJ</span>
+            </div>
+            <p>&copy; 2026 Funkot Auto DJ. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        const toggle = document.querySelector('.nav-toggle');
+        const links = document.querySelector('.nav-links');
+        if (toggle) {
+            toggle.addEventListener('click', () => {
+                links.classList.toggle('open');
+                toggle.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+
+</html>
